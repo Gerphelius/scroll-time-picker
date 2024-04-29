@@ -1,3 +1,3 @@
 # scroll-time-picker
 
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Gerphelius/scroll-time-picker)
+Time picker component with touch scrolling and looped
