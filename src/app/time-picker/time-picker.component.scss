@@ -1,0 +1,53 @@
+.time-picker-component {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  .section {
+    overflow: hidden;
+    user-select: none;
+    width: 30px;
+    position: relative;
+    touch-action: none;
+    cursor: grab;
+
+    &::after,
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      display: block;
+      height: 29px;
+      width: 100%;
+      background-color: #25252da6;
+      z-index: 1;
+    }
+
+    &::before {
+      top: 0;
+      border-bottom: 0.5px solid #676871;
+    }
+
+    &::after {
+      bottom: 0;
+      border-top: 0.5px solid #676871;
+    }
+
+    li {
+      text-align: center;
+      vertical-align: middle;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 5px 0;
+      color: white;
+    }
+  }
+
+  .devider {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 4px;
+    color: white;
+  }
+}
